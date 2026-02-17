@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header title="Enrollment Header">
+        <h1>Online Course Enrollment</h1>
+        <p>Fill in your details to enroll in a course.</p>
+    </header>
+
+    <!-- Main Section -->
+    <section title="Enrollment Form Section">
+
+        <form title="Course Enrollment Form">
+
+            <!-- Name -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+            <!-- Email -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+            <!-- Course Selection using Datalist -->
+            <label for="course">Choose Course:</label><br>
+            <input list="courses" id="course" name="course" required placeholder="Course name">
+            <datalist id="courses">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="React">
+                <option value="Full Stack Web Development">
+            </datalist>
+            <br><br>
+
+            <!-- Skill Level using Meter -->
+            <label for="skill">Skill Level (Beginner to Advanced):</label><br>
+            <meter id="skill" min="0" max="100" value="80" low="30" high="70" optimum="90">
+                40 out of 100
+            </meter>
+            <br><br>
+
+            <!-- Experience using Range -->
+            <label for="experience">Experience Level (0–10):</label><br>
+            <input type="range" id="experience" name="experience" min="0" max="10" value="3">
+            <br><br>
+
+            <!-- Age -->
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" required min="18" max="60">
+            <br><br>
+
+            <!-- Enrollment Progress -->
+            <label>Enrollment Completion:</label><br>
+            <progress value="90" max="100">90%</progress>
+            <br><br>
+
+            <!-- Submit -->
+            <input type="submit" value="Enroll Now">
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer title="Footer Info">
+        <p>© 2026 TechIndia Online Learning Platform</p>
+        <p>Email: support@techindia.com</p>
+    </footer>
+
+</body>
+</html>
