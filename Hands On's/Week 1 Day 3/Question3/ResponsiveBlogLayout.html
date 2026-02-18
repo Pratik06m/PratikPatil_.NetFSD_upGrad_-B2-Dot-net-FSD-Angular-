@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Layout</title>
+
+    <style>
+        /* Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            letter-spacing: 1px;
+        }
+
+        /* Main container */
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;           /* Allows auto wrapping */
+            gap: 20px;
+        }
+
+        /* Blog Card */
+        .card {
+            background-color: white;
+            flex: 1 1 300px;           /* Flexible width, auto adjusts */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 8px 14px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Blog</h1>
+        <p>Latest Articles & Insights</p>
+    </header>
+
+    <!-- Blog Cards -->
+    <main class="container">
+
+        <article class="card">
+            <h3>Understanding HTML Basics</h3>
+            <p>Learn the fundamentals of HTML and how to structure web pages effectively.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <article class="card">
+            <h3>Getting Started with CSS</h3>
+            <p>Explore how CSS styles web pages and improves visual presentation.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <article class="card">
+            <h3>Responsive Web Design</h3>
+            <p>Build websites that look great on desktop, tablet, and mobile devices.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <article class="card">
+            <h3>Introduction to JavaScript</h3>
+            <p>Understand how JavaScript makes web pages interactive and dynamic.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <article class="card">
+            <h3>Flexbox Layout Guide</h3>
+            <p>Learn how Flexbox helps create flexible and responsive layouts easily.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <article class="card">
+            <h3>Website Performance Tips</h3>
+            <p>Optimize your website speed and improve user experience effectively.</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+    </main>
+
+</body>
+</html>
