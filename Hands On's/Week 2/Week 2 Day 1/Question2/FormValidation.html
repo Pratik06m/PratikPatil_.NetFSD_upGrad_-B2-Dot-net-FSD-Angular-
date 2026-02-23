@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Form Validation</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    Name:
+    <input type="text" id="name" onchange="validateName()">
+    <span id="nameMsg"></span>
+    <br><br>
+
+    Email:
+    <input type="text" id="email" onchange="validateEmail()">
+    <span id="emailMsg"></span>
+    <br><br>
+
+    Age:
+    <input type="number" id="age" onchange="validateAge()">
+    <span id="ageMsg"></span>
+    <br><br>
+
+    <button onclick="submitForm()">Submit</button>
+
+    <p id="finalMsg"></p>
+
+    <script>
+        function validateName() {
+            var name = document.getElementById("name").value;
+            if (name.trim() === "") {
+                document.getElementById("nameMsg").innerHTML = "Name cannot be empty";
+                document.getElementById("nameMsg").style.color = "red";
+                return false;
+            } else {
+                document.getElementById("nameMsg").innerHTML = "Valid Name";
+                document.getElementById("nameMsg").style.color = "green";
+                return true;
+            }
+        }
+
+        function validateEmail() {
+            var email = document.getElementById("email").value;
+            if (email.includes("@")) {
+                document.getElementById("emailMsg").innerHTML = "Valid Email";
+                document.getElementById("emailMsg").style.color = "green";
+                return true;
+            } else {
+                document.getElementById("emailMsg").innerHTML = "Email must contain @";
+                document.getElementById("emailMsg").style.color = "red";
+                return false;
+            }
+        }
+
+        function validateAge() {
+            var age = document.getElementById("age").value;
+            if (age > 18) {
+                document.getElementById("ageMsg").innerHTML = "Valid Age";
+                document.getElementById("ageMsg").style.color = "green";
+                return true;
+            } else {
+                document.getElementById("ageMsg").innerHTML = "Age must be greater than 18";
+                document.getElementById("ageMsg").style.color = "red";
+                return false;
+            }
+        }
+
+        function submitForm() {
+            if (validateName() && validateEmail() && validateAge()) {
+
+                var userData = {
+                    name: document.getElementById("name").value,
+                    email: document.getElementById("email").value,
+                    age: document.getElementById("age").value
+                };
+
+                // Store in sessionStorage
+                sessionStorage.setItem("user", JSON.stringify(userData));
+
+                document.getElementById("finalMsg").innerHTML = "Registration Successful! Data stored in sessionStorage.";
+                document.getElementById("finalMsg").style.color = "green";
+            } else {
+                document.getElementById("finalMsg").innerHTML = "Please fix errors before submitting.";
+                document.getElementById("finalMsg").style.color = "red";
+            }
+        }
+    </script>
+
+</body>
+</html>
