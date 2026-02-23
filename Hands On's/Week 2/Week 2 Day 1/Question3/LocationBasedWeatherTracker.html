@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location Logger</title>
+</head>
+<body>
+
+    <h2>Location-Based Logger</h2>
+
+    <button onclick="getLocation()">Get My Location</button>
+
+    <h3>Current Location:</h3>
+    <p id="currentLocation"></p>
+
+    <h3>Last 5 Locations:</h3>
+    <ul id="locationHistory"></ul>
+
+    <script>
+
+        // Get Location Function
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    showPosition,      // Success callback
+                    showError,         // Error callback
+                    { timeout: 10000 } // Optional timeout (10 sec)
+                );
+            } else {
+                document.getElementById("currentLocation").innerHTML =
+                    "Geolocation is not supported by this browser.";
+            }
+        }
+
+        // Success Callback
+        function showPosition(position) {
+
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+
+            document.getElementById("currentLocation").innerHTML =
+                "Latitude: " + latitude + "<br>Longitude: " + longitude;
+
+            var newEntry = {
+                latitude: latitude,
+                longitude: longitude,
+                time: new Date().toLocaleString()
+            };
+
+            saveToLocalStorage(newEntry);
+        }
+
+        // Error Callback
+        function showError(error) {
+            var message = "";
+
+            switch(error.code) {
+                case error.PERMISSION_DENIED:
+                    message = "Permission denied. Please allow location access.";
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    message = "Location information is unavailable.";
+                    break;
+                case error.TIMEOUT:
+                    message = "Location request timed out.";
+                    break;
+                default:
+                    message = "An unknown error occurred.";
+            }
+
+            document.getElementById("currentLocation").innerHTML = message;
+        }
+
+        // Save Only Last 5 Entries
+        function saveToLocalStorage(entry) {
+
+            var history = JSON.parse(localStorage.getItem("locations")) || [];
+
+            history.unshift(entry); // Add new at beginning
+
+            if (history.length > 5) {
+                history.pop(); // Remove oldest
+            }
+
+            localStorage.setItem("locations", JSON.stringify(history));
+
+            displayHistory();
+        }
+
+        // Display History on Page Load
+        function displayHistory() {
+
+            var history = JSON.parse(localStorage.getItem("locations")) || [];
+            var list = document.getElementById("locationHistory");
+
+            list.innerHTML = "";
+
+            history.forEach(function(item) {
+                var li = document.createElement("li");
+                li.innerHTML =
+                    item.time + " | Lat: " + item.latitude +
+                    " | Long: " + item.longitude;
+                list.appendChild(li);
+            });
+        }
+
+        // Load history when page loads
+        window.onload = function() {
+            displayHistory();
+        };
+
+    </script>
+
+</body>
+</html>
