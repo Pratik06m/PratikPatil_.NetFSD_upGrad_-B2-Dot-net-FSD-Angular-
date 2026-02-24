@@ -1,0 +1,13 @@
+{
+  "name": "weather-data-fetcher",
+  "version": "1.0.0",
+  "description": "Weather Data Fetcher using Promises and Async/Await",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "Pratik Patil",
+  "license": "ISC"
+}
