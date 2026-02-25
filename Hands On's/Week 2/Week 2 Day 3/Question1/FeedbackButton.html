@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Feedback Page</h2>
+    <button id="feedbackBtn">Submit Feedback</button>
+
+    <div id="message"></div>
+
+    <script>
+        // Select button and message container
+        const button = document.getElementById("feedbackBtn");
+        const messageDiv = document.getElementById("message");
+
+        // Add event listener
+        button.addEventListener("click", function() {
+            messageDiv.textContent = "✅ Thank you! Your feedback has been submitted successfully.";
+        });
+    </script>
+
+</body>
+</html>
