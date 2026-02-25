@@ -39,11 +39,9 @@
     <div id="message"></div>
 
     <script>
-        // Select button and message container
         const button = document.getElementById("feedbackBtn");
         const messageDiv = document.getElementById("message");
 
-        // Add event listener
         button.addEventListener("click", function() {
             messageDiv.textContent = "✅ Thank you! Your feedback has been submitted successfully.";
         });
