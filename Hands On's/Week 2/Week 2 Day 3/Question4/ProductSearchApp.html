@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mini Product Search App</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .container {
+        background: white;
+        padding: 20px;
+        width: 400px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+    }
+
+    li:hover {
+        background-color: #f0f0f0;
+    }
+
+    .no-results {
+        color: red;
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Product Search</h2>
+    <input type="text" id="searchInput" placeholder="Search products...">
+    <ul id="productList"></ul>
+    <div id="noResults" class="no-results"></div>
+</div>
+
+<script>
+
+const state = {
+    products: [
+        "iPhone 15",
+        "Samsung Galaxy S23",
+        "OnePlus 11",
+        "Sony Headphones",
+        "Dell Laptop",
+        "HP Pavilion",
+        "Apple Watch",
+        "Bluetooth Speaker"
+    ],
+    filteredProducts: []
+};
+
+const searchInput = document.getElementById("searchInput");
+const productList = document.getElementById("productList");
+const noResults = document.getElementById("noResults");
+
+
+function renderProducts(products) {
+    productList.innerHTML = "";
+    noResults.textContent = "";
+
+    if (products.length === 0) {
+        noResults.textContent = "No Results Found";
+        return;
+    }
+
+    products.forEach(product => {
+        const li = document.createElement("li");
+        li.textContent = product;
+        productList.appendChild(li);
+    });
+}
+
+
+function filterProducts(query) {
+    state.filteredProducts = state.products.filter(product =>
+        product.toLowerCase().includes(query.toLowerCase())
+    );
+
+    renderProducts(state.filteredProducts);
+}
+
+
+searchInput.addEventListener("input", function(event) {
+    filterProducts(event.target.value);
+});
+
+
+productList.addEventListener("click", function(event) {
+    if (event.target.tagName === "LI") {
+        alert("You selected: " + event.target.textContent);
+    }
+});
+
+
+renderProducts(state.products);
+
+</script>
+
+</body>
+</html>
