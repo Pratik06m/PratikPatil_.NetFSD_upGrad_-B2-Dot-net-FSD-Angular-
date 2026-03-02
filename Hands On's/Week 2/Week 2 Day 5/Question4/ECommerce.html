@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EliteShop - E-Commerce Landing</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+:root {
+  --bs-primary: #5e17eb;
+  --bs-secondary: #ff6f61;
+  --bs-dark: #111827;
+  --bs-light: #f8f9fa;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #5e17eb, #7c3aed);
+  color: white;
+  padding: 100px 0;
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.section-title {
+  font-weight: 700;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">EliteShop</a>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasMenu">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Products</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Categories</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero-section text-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Upgrade Your Style</h1>
+    <p class="lead">Discover premium fashion & electronics at unbeatable prices.</p>
+    <a href="#" class="btn btn-light btn-lg mt-3">Shop Now</a>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title mb-4">Featured Products</h2>
+
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/1200/400?1"
+               class="d-block w-100 rounded" alt="Product 1">
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1200/400?2"
+               class="d-block w-100 rounded" alt="Product 2">
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1200/400?3"
+               class="d-block w-100 rounded" alt="Product 3">
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button"
+              data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button"
+              data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center section-title mb-4">Latest Products</h2>
+
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card product-card shadow-sm h-100">
+          <img src="https://picsum.photos/300/200?4" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Smart Watch</h6>
+            <p class="text-secondary fw-bold">$99</p>
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card product-card shadow-sm h-100">
+          <img src="https://picsum.photos/300/200?5" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Headphones</h6>
+            <p class="text-secondary fw-bold">$79</p>
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card product-card shadow-sm h-100">
+          <img src="https://picsum.photos/300/200?6" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Sneakers</h6>
+            <p class="text-secondary fw-bold">$120</p>
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card product-card shadow-sm h-100">
+          <img src="https://picsum.photos/300/200?7" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Backpack</h6>
+            <p class="text-secondary fw-bold">$45</p>
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title mb-3">Subscribe to Our Newsletter</h2>
+    <p class="text-muted">Get updates on new arrivals and exclusive offers.</p>
+
+    <form class="row justify-content-center mt-4">
+      <div class="col-md-6 col-lg-4">
+        <input type="email" class="form-control form-control-lg"
+               placeholder="Enter your email" required>
+      </div>
+      <div class="col-auto mt-3 mt-md-0">
+        <button type="submit" class="btn btn-secondary btn-lg">
+          Subscribe
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<footer class="bg-dark text-light text-center py-4">
+  <p class="mb-0">&copy; 2026 EliteShop. All Rights Reserved.</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
