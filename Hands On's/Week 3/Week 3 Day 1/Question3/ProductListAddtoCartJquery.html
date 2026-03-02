@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Product List with Cart Counter</title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart {
+    font-size: 18px;
+}
+
+.cart-count {
+    background: red;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+button {
+    padding: 8px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+.success-msg {
+    color: green;
+    font-size: 14px;
+    margin-top: 8px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h2>My Shop</h2>
+    <div class="cart">
+        Cart Items:
+        <span id="cartCount" class="cart-count">0</span>
+    </div>
+</div>
+
+<div class="container" id="productContainer">
+
+    <div class="product">
+        <h4>Smart Watch</h4>
+        <p>$99</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="message"></div>
+    </div>
+
+    <div class="product">
+        <h4>Wireless Headphones</h4>
+        <p>$79</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="message"></div>
+    </div>
+
+    <div class="product">
+        <h4>Sports Shoes</h4>
+        <p>$120</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="message"></div>
+    </div>
+
+    <div class="product">
+        <h4>Backpack</h4>
+        <p>$45</p>
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="message"></div>
+    </div>
+
+</div>
+
+<script>
+$(document).ready(function() {
+
+    var cartCounter = 0;
+
+    $("#productContainer").on("click", ".add-to-cart", function() {
+
+        cartCounter++;
+        $("#cartCount").text(cartCounter);
+
+        $(this).prop("disabled", true);
+    
+        $(this).attr("data-added", "true");
+
+        $(this).text("Added");
+
+        $(this).siblings(".message")
+               .text("Product added successfully!")
+               .addClass("success-msg");
+
+    });
+
+});
+</script>
+
+</body>
+</html>
