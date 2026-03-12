@@ -1,0 +1,15 @@
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\bin\Debug\net10.0\CalCusingSwitch.exe
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\bin\Debug\net10.0\CalCusingSwitch.deps.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\bin\Debug\net10.0\CalCusingSwitch.runtimeconfig.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\bin\Debug\net10.0\CalCusingSwitch.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\bin\Debug\net10.0\CalCusingSwitch.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.AssemblyInfoInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.AssemblyInfo.cs
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.sourcelink.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\refint\CalCusingSwitch.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\CalCusingSwitch.genruntimeconfig.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question2\CalCusingSwitch\obj\Debug\net10.0\ref\CalCusingSwitch.dll

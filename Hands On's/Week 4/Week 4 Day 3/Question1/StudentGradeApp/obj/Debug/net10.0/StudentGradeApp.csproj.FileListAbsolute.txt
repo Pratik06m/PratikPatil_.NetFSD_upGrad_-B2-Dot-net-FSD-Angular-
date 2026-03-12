@@ -1,0 +1,15 @@
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\bin\Debug\net10.0\StudentGradeApp.exe
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\bin\Debug\net10.0\StudentGradeApp.deps.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\bin\Debug\net10.0\StudentGradeApp.runtimeconfig.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\bin\Debug\net10.0\StudentGradeApp.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\bin\Debug\net10.0\StudentGradeApp.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.AssemblyInfoInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.AssemblyInfo.cs
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.sourcelink.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\refint\StudentGradeApp.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\StudentGradeApp.genruntimeconfig.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 3\Question1\StudentGradeApp\obj\Debug\net10.0\ref\StudentGradeApp.dll
