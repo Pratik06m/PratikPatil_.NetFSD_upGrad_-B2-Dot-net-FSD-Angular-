@@ -1,0 +1,15 @@
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\bin\Debug\net10.0\RecursivePowerCalc.exe
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\bin\Debug\net10.0\RecursivePowerCalc.deps.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\bin\Debug\net10.0\RecursivePowerCalc.runtimeconfig.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\bin\Debug\net10.0\RecursivePowerCalc.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\bin\Debug\net10.0\RecursivePowerCalc.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.AssemblyInfoInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.AssemblyInfo.cs
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.sourcelink.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\refint\RecursivePowerCalc.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\RecursivePowerCalc.genruntimeconfig.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question5\RecursivePowerCalc\obj\Debug\net10.0\ref\RecursivePowerCalc.dll

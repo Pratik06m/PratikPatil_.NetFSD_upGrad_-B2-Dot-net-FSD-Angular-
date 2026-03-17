@@ -1,0 +1,15 @@
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\bin\Debug\net10.0\ResultAnalyzer.exe
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\bin\Debug\net10.0\ResultAnalyzer.deps.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\bin\Debug\net10.0\ResultAnalyzer.runtimeconfig.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\bin\Debug\net10.0\ResultAnalyzer.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\bin\Debug\net10.0\ResultAnalyzer.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.AssemblyInfoInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.AssemblyInfo.cs
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.sourcelink.json
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\refint\ResultAnalyzer.dll
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.pdb
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ResultAnalyzer.genruntimeconfig.cache
+F:\UpGrad Training\Hands On's\Week 4\Week 4 Day 4\Question3\ResultAnalyzer\obj\Debug\net10.0\ref\ResultAnalyzer.dll

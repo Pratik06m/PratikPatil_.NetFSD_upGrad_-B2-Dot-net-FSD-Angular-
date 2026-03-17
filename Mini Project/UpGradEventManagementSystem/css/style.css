@@ -1,0 +1,316 @@
+/* GLOBAL STYLES */
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#eef2f7,#f9fbff);
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+.navbar-brand{
+font-weight:600;
+font-size:22px;
+}
+
+/* HERO SECTION */
+
+.hero{
+
+height:75vh;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+
+color:white;
+
+background:linear-gradient(-45deg,#667eea,#764ba2,#6dd5ed,#2193b0);
+
+background-size:400% 400%;
+
+animation:gradientMove 12s ease infinite;
+
+}
+
+.hero h1{
+
+font-size:55px;
+font-weight:700;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+opacity:0.9;
+
+}
+
+/* gradient animation */
+
+@keyframes gradientMove{
+
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+
+}
+
+/* BUTTON STYLE */
+
+.btn{
+
+border-radius:30px;
+padding:10px 25px;
+transition:0.3s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-3px);
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+
+}
+
+/* EVENT CARDS */
+
+.card{
+
+border:none;
+border-radius:15px;
+
+background:white;
+
+transition:0.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px) scale(1.02);
+
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+
+}
+
+/* ADMIN FORM */
+
+.form-container{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+}
+
+/* LOGIN PAGE */
+
+.login-page{
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:linear-gradient(120deg,#667eea,#764ba2);
+
+}
+
+.login-card{
+
+width:400px;
+
+padding:30px;
+
+background:white;
+
+border-radius:15px;
+
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+
+animation:fadeIn 0.7s;
+
+}
+
+@keyframes fadeIn{
+
+from{opacity:0;transform:translateY(30px)}
+to{opacity:1;transform:translateY(0)}
+
+}
+
+/* REGISTER PAGE */
+
+.register-page{
+
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:linear-gradient(135deg,#6a11cb,#2575fc);
+
+}
+
+.register-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+width:450px;
+
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+
+}
+
+/* CONTACT PAGE */
+
+.contact-page{
+
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:linear-gradient(120deg,#89f7fe,#66a6ff);
+
+}
+
+.contact-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+width:450px;
+
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+
+}
+
+/* EVENTS DASHBOARD */
+
+.dashboard-title{
+
+font-weight:600;
+
+margin-bottom:20px;
+
+}
+
+.search-box{
+
+max-width:350px;
+
+}
+
+/* FOOTER */
+
+footer{
+
+margin-top:60px;
+
+background:#0f2027;
+
+color:white;
+
+padding:15px;
+
+text-align:center;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+.card{
+
+margin-bottom:20px;
+
+}
+
+}
+
+.login-container,
+.register-container,
+.contact-container{
+
+display:flex;
+justify-content:center;
+align-items:center;
+height:85vh;
+
+}
+
+.login-card,
+.register-card,
+.contact-card{
+
+width:420px;
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 12px 35px rgba(0,0,0,0.2);
+
+animation:fadeIn 0.6s;
+
+}
+
+.form-container{
+
+background:white;
+
+padding:25px;
+
+border-radius:12px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+
+}
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
