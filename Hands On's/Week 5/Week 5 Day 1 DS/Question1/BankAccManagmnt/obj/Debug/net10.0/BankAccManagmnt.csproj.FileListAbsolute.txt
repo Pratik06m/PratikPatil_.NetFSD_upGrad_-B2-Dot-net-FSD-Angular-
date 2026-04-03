@@ -1,0 +1,15 @@
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\bin\Debug\net10.0\BankAccManagmnt.exe
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\bin\Debug\net10.0\BankAccManagmnt.deps.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\bin\Debug\net10.0\BankAccManagmnt.runtimeconfig.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\bin\Debug\net10.0\BankAccManagmnt.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\bin\Debug\net10.0\BankAccManagmnt.pdb
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.AssemblyInfoInputs.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.AssemblyInfo.cs
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.sourcelink.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\refint\BankAccManagmnt.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.pdb
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\BankAccManagmnt.genruntimeconfig.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question1\BankAccManagmnt\obj\Debug\net10.0\ref\BankAccManagmnt.dll

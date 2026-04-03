@@ -1,0 +1,15 @@
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\bin\Debug\net10.0\OnlineShoppingCart.exe
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\bin\Debug\net10.0\OnlineShoppingCart.deps.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\bin\Debug\net10.0\OnlineShoppingCart.runtimeconfig.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\bin\Debug\net10.0\OnlineShoppingCart.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\bin\Debug\net10.0\OnlineShoppingCart.pdb
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.AssemblyInfoInputs.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.AssemblyInfo.cs
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.sourcelink.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\refint\OnlineShoppingCart.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.pdb
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\OnlineShoppingCart.genruntimeconfig.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question3\OnlineShoppingCart\obj\Debug\net10.0\ref\OnlineShoppingCart.dll

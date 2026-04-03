@@ -1,0 +1,15 @@
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\bin\Debug\net10.0\EmpSalaryCalc.exe
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\bin\Debug\net10.0\EmpSalaryCalc.deps.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\bin\Debug\net10.0\EmpSalaryCalc.runtimeconfig.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\bin\Debug\net10.0\EmpSalaryCalc.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\bin\Debug\net10.0\EmpSalaryCalc.pdb
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.AssemblyInfoInputs.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.AssemblyInfo.cs
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.sourcelink.json
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\refint\EmpSalaryCalc.dll
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.pdb
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\EmpSalaryCalc.genruntimeconfig.cache
+F:\UpGrad Training\Hands On's\Week 5\Week 5 Day 1\Question2\EmpSalaryCalc\obj\Debug\net10.0\ref\EmpSalaryCalc.dll
