@@ -1,0 +1,53 @@
+@model SessionViewModel
+@{
+    ViewData["Title"] = Model.SessionTitle;
+    Layout = "_ParticipantLayout";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Events</a></li>
+        <li class="breadcrumb-item">
+            <a asp-controller="Home" asp-action="EventDetails" asp-route-id="@Model.EventId">@Model.EventName</a>
+        </li>
+        <li class="breadcrumb-item active">@Model.SessionTitle</li>
+    </ol>
+</nav>
+
+<div class="card shadow border-0">
+    <div class="card-header py-3" style="background: linear-gradient(135deg,#6f42c1,#0d6efd);">
+        <h3 class="text-white mb-0"><i class="fa fa-chalkboard-teacher me-2"></i>@Model.SessionTitle</h3>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="lead">@(Model.Description ?? "No description.")</p>
+                @if (!string.IsNullOrEmpty(Model.SessionUrl))
+                {
+                    <a href="@Model.SessionUrl" target="_blank" class="btn btn-success mb-3">
+                        <i class="fa fa-video me-1"></i>Join Session
+                    </a>
+                }
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <strong><i class="fa fa-calendar me-2"></i>Start:</strong><br />
+                        @Model.SessionStart.ToString("dd MMM yyyy HH:mm")
+                    </li>
+                    <li class="list-group-item">
+                        <strong><i class="fa fa-clock me-2"></i>End:</strong><br />
+                        @Model.SessionEnd.ToString("dd MMM yyyy HH:mm")
+                    </li>
+                    @if (!string.IsNullOrEmpty(Model.SpeakerName))
+                    {
+                        <li class="list-group-item">
+                            <strong><i class="fa fa-microphone me-2"></i>Speaker:</strong><br />
+                            @Model.SpeakerName
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

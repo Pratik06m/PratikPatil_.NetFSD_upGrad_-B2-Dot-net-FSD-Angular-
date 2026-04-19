@@ -1,0 +1,76 @@
+/* upGrad EMS - Participant Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12) !important;
+}
+
+/* Hero jumbotron */
+.rounded-3 {
+    border-radius: 16px !important;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Badges */
+.badge {
+    font-size: 0.78em;
+    padding: 0.4em 0.75em;
+    border-radius: 6px;
+}
+
+/* Form controls */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    padding: 0.5rem 0.9rem;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.2rem rgba(111,66,193,0.2);
+}
+
+/* Alerts */
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid #6f42c1;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    h1.display-5 {
+        font-size: 1.8rem;
+    }
+}

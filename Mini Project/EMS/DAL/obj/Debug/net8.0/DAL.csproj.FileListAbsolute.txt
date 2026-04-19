@@ -1,0 +1,15 @@
+F:\UpGrad Training\Mini Project\EMS\DAL\bin\Debug\net8.0\DAL.deps.json
+F:\UpGrad Training\Mini Project\EMS\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+F:\UpGrad Training\Mini Project\EMS\DAL\bin\Debug\net8.0\DAL.dll
+F:\UpGrad Training\Mini Project\EMS\DAL\bin\Debug\net8.0\DAL.pdb
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.dll
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\refint\DAL.dll
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.pdb
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+F:\UpGrad Training\Mini Project\EMS\DAL\obj\Debug\net8.0\ref\DAL.dll

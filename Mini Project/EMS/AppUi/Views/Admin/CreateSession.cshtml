@@ -1,0 +1,72 @@
+@model SessionViewModel
+@{
+    ViewData["Title"] = "Create Session";
+    Layout = "_AdminLayout";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fa fa-plus-circle me-2"></i>Create Session</h2>
+    <a asp-action="Sessions" class="btn btn-outline-secondary">
+        <i class="fa fa-arrow-left me-1"></i>Back to Sessions
+    </a>
+</div>
+
+<div class="card shadow border-0" style="max-width:700px;">
+    <div class="card-body p-4">
+        <form asp-action="CreateSession" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"
+                 style="display:@(ViewData.ModelState.ErrorCount > 0 ? "block" : "none")"></div>
+
+            <div class="mb-3">
+                <label asp-for="EventId" class="form-label fw-semibold">Event</label>
+                <select asp-for="EventId" asp-items="ViewBag.Events" class="form-select">
+                    <option value="">-- Select Event --</option>
+                </select>
+                <span asp-validation-for="EventId" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="SessionTitle" class="form-label fw-semibold"></label>
+                <input asp-for="SessionTitle" class="form-control" placeholder="e.g. AI in Healthcare" />
+                <span asp-validation-for="SessionTitle" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label fw-semibold"></label>
+                <textarea asp-for="Description" class="form-control" rows="2"
+                          placeholder="Brief session description..."></textarea>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="SessionStart" class="form-label fw-semibold"></label>
+                    <input asp-for="SessionStart" type="datetime-local" class="form-control" />
+                    <span asp-validation-for="SessionStart" class="text-danger small"></span>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label asp-for="SessionEnd" class="form-label fw-semibold"></label>
+                    <input asp-for="SessionEnd" type="datetime-local" class="form-control" />
+                    <span asp-validation-for="SessionEnd" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="SessionUrl" class="form-label fw-semibold"></label>
+                <input asp-for="SessionUrl" class="form-control" placeholder="https://meet.example.com/session" />
+                <span asp-validation-for="SessionUrl" class="text-danger small"></span>
+            </div>
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-success">
+                    <i class="fa fa-save me-1"></i>Create Session
+                </button>
+                <a asp-action="Sessions" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

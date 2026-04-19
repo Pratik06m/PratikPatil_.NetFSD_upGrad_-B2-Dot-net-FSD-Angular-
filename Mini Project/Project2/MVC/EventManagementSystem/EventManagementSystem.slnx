@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EMS.DAL/EMS.DAL.csproj" />
+  <Project Path="EMS.Web/EMS.Web.csproj" />
+</Solution>

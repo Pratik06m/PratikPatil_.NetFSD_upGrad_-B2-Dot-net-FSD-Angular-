@@ -1,0 +1,113 @@
+@model ParticipantDashboardViewModel
+@{
+    ViewData["Title"] = "My Dashboard";
+    Layout = "_ParticipantLayout";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="mb-0"><i class="fa fa-user-circle me-2 text-primary"></i>Welcome, @Model.UserName!</h2>
+        <p class="text-muted mb-0 small">@Model.Email</p>
+    </div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary">
+        <i class="fa fa-search me-1"></i>Explore Events
+    </a>
+</div>
+
+@if (!Model.RegisteredEvents.Any())
+{
+    <div class="alert alert-info d-flex align-items-center gap-3">
+        <i class="fa fa-info-circle fa-2x"></i>
+        <div>
+            You have not registered for any events yet.
+            <a asp-controller="Home" asp-action="Index" class="alert-link">Browse events</a> to get started.
+        </div>
+    </div>
+}
+else
+{
+    <h5 class="mb-3 text-muted">
+        <i class="fa fa-calendar-check me-1"></i>Registered Events (@Model.RegisteredEvents.Count)
+    </h5>
+
+    @foreach (var reg in Model.RegisteredEvents)
+    {
+        <div class="card border-0 shadow-sm mb-4">  
+            <div class="card-header d-flex justify-content-between align-items-center py-3"
+                 style="background: linear-gradient(135deg,#6f42c1,#0d6efd);">
+                <div class="text-white">
+                    <h5 class="mb-0">@reg.EventName</h5>
+                    <small>
+                        <span class="badge bg-light text-dark me-1">@reg.EventCategory</span>
+                        <i class="fa fa-calendar me-1"></i>@reg.EventDate.ToString("dd MMM yyyy")
+                    </small>
+                </div>
+                <div class="text-end">
+                    <span class="badge @(reg.Status == "Active" ? "bg-success" : "bg-secondary") mb-1">
+                        @reg.Status
+                    </span>
+                    <br />
+                    @if (reg.IsAttended)
+                    {
+                        <span class="badge bg-success"><i class="fa fa-check me-1"></i>Attended</span>
+                    }
+                    else
+                    {
+                        <form asp-controller="Participant" asp-action="MarkAttendance" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="registrationId" value="@reg.RegistrationId" />
+                            <input type="hidden" name="isAttended" value="true" />
+                            <button type="submit" class="btn btn-sm btn-light">
+                                <i class="fa fa-check me-1"></i>Mark Attended
+                            </button>
+                        </form>
+                    }
+                </div>
+            </div>
+
+            @if (reg.Sessions.Any())
+            {
+                <div class="card-body pb-2">
+                    <h6 class="text-muted mb-2"><i class="fa fa-chalkboard-teacher me-1"></i>Sessions</h6>
+                    <div class="row g-2">
+                        @foreach (var s in reg.Sessions)
+                        {
+                            <div class="col-md-6">
+                                <div class="card border-start border-primary border-3 bg-light">
+                                    <div class="card-body py-2 px-3">
+                                        <p class="fw-semibold mb-0">@s.SessionTitle</p>
+                                        <p class="small text-muted mb-1">
+                                            <i class="fa fa-clock me-1"></i>
+                                            @s.SessionStart.ToString("dd MMM HH:mm") — @s.SessionEnd.ToString("HH:mm")
+                                        </p>
+                                        @if (!string.IsNullOrEmpty(s.SessionUrl))
+                                        {
+                                            <a href="@s.SessionUrl" target="_blank" class="btn btn-sm btn-outline-primary py-0">
+                                                <i class="fa fa-video me-1"></i>Join
+                                            </a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+
+            <div class="card-footer bg-white border-0">
+                <form asp-controller="Participant" asp-action="UnregisterEvent" method="post" class="d-inline"
+                      onsubmit="return confirm('Unregister from this event?')">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="registrationId" value="@reg.RegistrationId" />
+                    <button type="submit" class="btn btn-sm btn-outline-danger">
+                        <i class="fa fa-times me-1"></i>Unregister
+                    </button>
+                </form>
+                <a asp-controller="Home" asp-action="EventDetails" asp-route-id="@reg.EventId"
+                   class="btn btn-sm btn-outline-secondary ms-1">
+                    <i class="fa fa-eye me-1"></i>View Event
+                </a>
+            </div>
+        </div>
+    }
+}

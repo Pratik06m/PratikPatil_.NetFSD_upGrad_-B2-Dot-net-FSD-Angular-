@@ -1,0 +1,53 @@
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "_ParticipantLayout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <div class="card shadow border-0">
+            <div class="card-header text-white text-center py-3" style="background: linear-gradient(135deg,#6f42c1,#0d6efd);">
+                <h4 class="mb-0"><i class="fa fa-user-plus me-2"></i>Create Account</h4>
+            </div>
+            <div class="card-body p-4">
+                <form asp-action="Register" method="post">
+                    @Html.AntiForgeryToken()
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger" style="display:@(ViewData.ModelState.ErrorCount > 0 ? "block" : "none")"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserName" class="form-label fw-semibold"></label>
+                        <input asp-for="UserName" class="form-control" placeholder="Your name" />
+                        <span asp-validation-for="UserName" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="EmailId" class="form-label fw-semibold"></label>
+                        <input asp-for="EmailId" class="form-control" placeholder="your@email.com" />
+                        <span asp-validation-for="EmailId" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label fw-semibold"></label>
+                        <input asp-for="Password" class="form-control" placeholder="6–20 characters" />
+                        <span asp-validation-for="Password" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="ConfirmPassword" class="form-label fw-semibold"></label>
+                        <input asp-for="ConfirmPassword" class="form-control" placeholder="Repeat password" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger small"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="fa fa-user-plus me-1"></i>Register
+                    </button>
+                </form>
+                <hr />
+                <p class="text-center mb-0">
+                    Already have an account? <a asp-controller="Account" asp-action="Login">Login</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,74 @@
+@model EventViewModel
+@{
+    ViewData["Title"] = "Edit Event";
+    Layout = "_AdminLayout";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fa fa-edit me-2"></i>Edit Event</h2>
+    <a asp-action="Events" class="btn btn-outline-secondary">
+        <i class="fa fa-arrow-left me-1"></i>Back to Events
+    </a>
+</div>
+
+<div class="card shadow border-0" style="max-width:700px;">
+    <div class="card-body p-4">
+        <form asp-action="EditEvent" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="EventId" />
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"
+                 style="display:@(ViewData.ModelState.ErrorCount > 0 ? "block" : "none")"></div>
+
+            <div class="mb-3">
+                <label asp-for="EventName" class="form-label fw-semibold"></label>
+                <input asp-for="EventName" class="form-control" />
+                <span asp-validation-for="EventName" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="EventCategory" class="form-label fw-semibold"></label>
+                <select asp-for="EventCategory" class="form-select">
+                    <option value="">-- Select Category --</option>
+                    <option>Tech &amp; Innovations</option>
+                    <option>Industrial Events</option>
+                    <option>Healthcare</option>
+                    <option>Finance</option>
+                    <option>Education</option>
+                    <option>Marketing</option>
+                </select>
+                <span asp-validation-for="EventCategory" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="EventDate" class="form-label fw-semibold"></label>
+                <input asp-for="EventDate" type="date" class="form-control"
+                       min="@DateTime.Now.AddDays(1).ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="EventDate" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label fw-semibold"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="Status" class="form-label fw-semibold"></label>
+                <select asp-for="Status" class="form-select">
+                    <option value="Active">Active</option>
+                    <option value="In-Active">In-Active</option>
+                </select>
+            </div>
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-save me-1"></i>Save Changes
+                </button>
+                <a asp-action="Events" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

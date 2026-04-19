@@ -1,0 +1,555 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\admin\\createevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\admin\\createevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\admin\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\admin\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\admin\\sessions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\admin\\sessions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\shared\\_participantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\shared\\_participantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\migrations\\20260411091553_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\migrations\\20260411091553_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\repository\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\repository\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\repository\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\repository\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\ems.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\ems.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\models\\speakersdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\models\\speakersdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\models\\sessioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\models\\sessioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\models\\eventdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\models\\eventdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\models\\participanteventdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\models\\participanteventdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.web\\ems.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E256BED3-E218-45E7-A6CF-465B32895F77}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\ems.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|f:\\upgrad training\\mini project\\project2\\mvc\\eventmanagementsystem\\ems.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6220CB8D-EE25-4B4D-A9F1-C92FB7115DC6}|EMS.DAL\\EMS.DAL.csproj|solutionrelative:ems.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sessions.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\Sessions.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Admin\\Sessions.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\Sessions.cshtml*",
+              "RelativeToolTip": "EMS.Web\\Views\\Admin\\Sessions.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T12:01:01.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateEvent.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\CreateEvent.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Admin\\CreateEvent.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\CreateEvent.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Admin\\CreateEvent.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T12:00:35.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Events.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\Events.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Admin\\Events.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\Events.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Admin\\Events.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T12:00:03.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T11:59:28.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T11:46:10.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EMS.DAL\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T11:27:20.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T10:47:05.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EMS.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EMS.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T10:37:17.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ParticipantLayout.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T10:33:01.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T10:32:17.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T10:30:40.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwCIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T10:30:41.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "EMS.Web\\Controllers\\EventController.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Controllers\\EventController.cs",
+              "RelativeToolTip": "EMS.Web\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwJYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T10:02:43.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EMS.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EMS.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T10:00:22.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\EventRepository.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Repository\\EventRepository.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\EventRepository.cs",
+              "RelativeToolTip": "EMS.DAL\\Repository\\EventRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:47:42.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Repository\\IEventRepository.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\IEventRepository.cs",
+              "RelativeToolTip": "EMS.DAL\\Repository\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:47:24.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Repository\\GenericRepository.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "EMS.DAL\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:46:00.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Repository\\IGenericRepository.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "EMS.DAL\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:45:22.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260411091553_InitialCreate.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Migrations\\20260411091553_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Migrations\\20260411091553_InitialCreate.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Migrations\\20260411091553_InitialCreate.cs",
+              "RelativeToolTip": "EMS.DAL\\Migrations\\20260411091553_InitialCreate.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:15:54.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "EMS.Web\\Program.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\Program.cs",
+              "RelativeToolTip": "EMS.Web\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:09:07.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EMS.Web\\appsettings.Development.json",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\appsettings.Development.json",
+              "RelativeToolTip": "EMS.Web\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T09:08:24.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "EMS.Web\\appsettings.json",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\appsettings.json",
+              "RelativeToolTip": "EMS.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T09:08:20.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EMS.DAL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:07:12.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ParticipantEventDetails.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\ParticipantEventDetails.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Models\\ParticipantEventDetails.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\ParticipantEventDetails.cs",
+              "RelativeToolTip": "EMS.DAL\\Models\\ParticipantEventDetails.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:02:08.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SessionInfo.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\SessionInfo.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Models\\SessionInfo.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\SessionInfo.cs",
+              "RelativeToolTip": "EMS.DAL\\Models\\SessionInfo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:01:37.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SpeakersDetails.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\SpeakersDetails.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Models\\SpeakersDetails.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\SpeakersDetails.cs",
+              "RelativeToolTip": "EMS.DAL\\Models\\SpeakersDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:01:12.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EventDetails.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\EventDetails.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Models\\EventDetails.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\EventDetails.cs",
+              "RelativeToolTip": "EMS.DAL\\Models\\EventDetails.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:00:21.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\UserInfo.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Models\\UserInfo.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Models\\UserInfo.cs",
+              "RelativeToolTip": "EMS.DAL\\Models\\UserInfo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T08:59:21.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EMS.DAL",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\EMS.DAL.csproj",
+              "RelativeDocumentMoniker": "EMS.DAL\\EMS.DAL.csproj",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\EMS.DAL.csproj",
+              "RelativeToolTip": "EMS.DAL\\EMS.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-11T08:53:05.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EMS.Web",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\EMS.Web.csproj",
+              "RelativeDocumentMoniker": "EMS.Web\\EMS.Web.csproj",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.Web\\EMS.Web.csproj*",
+              "RelativeToolTip": "EMS.Web\\EMS.Web.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-11T08:52:35.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "EMS.DAL\\Class1.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\Project2\\MVC\\EventManagementSystem\\EMS.DAL\\Class1.cs",
+              "RelativeToolTip": "EMS.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T08:52:01.193Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

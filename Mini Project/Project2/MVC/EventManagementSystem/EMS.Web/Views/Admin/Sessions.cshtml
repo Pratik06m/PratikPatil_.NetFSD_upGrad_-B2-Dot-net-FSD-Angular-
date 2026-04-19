@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SessionInfo>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Sessions</h2>
+<a href="/Admin/CreateSession" class="btn btn-success">Add Session</a>
+
+<table class="table">
+    <tr>
+        <th>Title</th>
+        <th>Event</th>
+        <th>Speaker</th>
+        <th>Time</th>
+    </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.SessionTitle</td>
+            <td>@s.EventId</td>
+            <td>@s.SpeakerId</td>
+            <td>@s.SessionStart - @s.SessionEnd</td>
+        </tr>
+    }
+</table>

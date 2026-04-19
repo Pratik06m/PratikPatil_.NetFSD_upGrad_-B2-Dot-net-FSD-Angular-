@@ -1,0 +1,68 @@
+@model EventViewModel
+@{
+    ViewData["Title"] = Model.EventName;
+    Layout = "_ParticipantLayout";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Events</a></li>
+        <li class="breadcrumb-item active">@Model.EventName</li>
+    </ol>
+</nav>
+
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-header text-white py-3" style="background: linear-gradient(135deg,#6f42c1,#0d6efd);">
+        <div class="d-flex justify-content-between align-items-start">
+            <div>
+                <h2 class="mb-1">@Model.EventName</h2>
+                <span class="badge bg-light text-dark me-2">@Model.EventCategory</span>
+                <span class="badge @(Model.Status == "Active" ? "bg-success" : "bg-secondary")">@Model.Status</span>
+            </div>
+            <div class="text-end">
+                <div class="fs-5"><i class="fa fa-calendar me-1"></i>@Model.EventDate.ToString("dd MMM yyyy")</div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <p class="lead">@(Model.Description ?? "No description provided.")</p>
+        <form asp-controller="Participant" asp-action="RegisterEvent" method="post" class="d-inline">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="eventId" value="@Model.EventId" />
+            <button type="submit" class="btn btn-primary">
+                <i class="fa fa-plus me-1"></i>Register for this Event
+            </button>
+        </form>
+    </div>
+</div>
+
+<h4 class="mb-3"><i class="fa fa-chalkboard-teacher me-2"></i>Sessions (@Model.Sessions.Count)</h4>
+
+@if (!Model.Sessions.Any())
+{
+    <div class="alert alert-info">No sessions added yet.</div>
+}
+
+<div class="row g-3">
+    @foreach (var s in Model.Sessions)
+    {
+        <div class="col-md-6">
+            <div class="card border-start border-primary border-3 shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">@s.SessionTitle</h5>
+                    <p class="text-muted small mb-1">
+                        <i class="fa fa-clock me-1"></i>
+                        @s.SessionStart.ToString("dd MMM yyyy HH:mm") — @s.SessionEnd.ToString("HH:mm")
+                    </p>
+                    @if (!string.IsNullOrEmpty(s.SpeakerName))
+                    {
+                        <p class="small mb-1"><i class="fa fa-microphone me-1"></i><strong>Speaker:</strong> @s.SpeakerName</p>
+                    }
+                    <p class="small mb-2">@(s.Description ?? "")</p>
+                    <a asp-controller="Home" asp-action="SessionDetails" asp-route-id="@s.SessionId"
+                       class="btn btn-outline-primary btn-sm">View Session</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

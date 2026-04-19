@@ -1,0 +1,31 @@
+﻿@model IEnumerable<EventDetails>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Events</h2>
+<a href="/Admin/CreateEvent" class="btn btn-success mb-3">Add Event</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.EventName</td>
+            <td>@e.EventCategory</td>
+            <td>@e.EventDate</td>
+            <td>@e.Status</td>
+            <td>
+                <a href="/Admin/EditEvent/@e.EventId" class="btn btn-warning">Edit</a>
+                <a href="/Admin/DeleteEvent/@e.EventId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

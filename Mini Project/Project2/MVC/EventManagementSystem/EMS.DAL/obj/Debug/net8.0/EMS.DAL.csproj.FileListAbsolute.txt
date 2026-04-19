@@ -1,0 +1,15 @@
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\bin\Debug\net8.0\EMS.DAL.deps.json
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\bin\Debug\net8.0\EMS.DAL.runtimeconfig.json
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\bin\Debug\net8.0\EMS.DAL.dll
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\bin\Debug\net8.0\EMS.DAL.pdb
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.csproj.AssemblyReference.cache
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.AssemblyInfoInputs.cache
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.AssemblyInfo.cs
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.csproj.CoreCompileInputs.cache
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.sourcelink.json
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.dll
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\refint\EMS.DAL.dll
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.pdb
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\EMS.DAL.genruntimeconfig.cache
+F:\UpGrad Training\Mini Project\Project2\MVC\EventManagementSystem\EMS.DAL\obj\Debug\net8.0\ref\EMS.DAL.dll

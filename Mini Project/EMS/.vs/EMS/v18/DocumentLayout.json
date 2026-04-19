@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\UpGrad Training\\Mini Project\\EMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\views\\shared\\_participantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\views\\shared\\_participantlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\views\\participant\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\views\\participant\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|DAL\\DAL.csproj|f:\\upgrad training\\mini project\\ems\\dal\\dataaccess\\emsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess\\emsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|f:\\upgrad training\\mini project\\ems\\appui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|AppUi\\AppUi.csproj|solutionrelative:appui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|DAL\\DAL.csproj|f:\\upgrad training\\mini project\\ems\\dal\\migrations\\20260411130805_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20260411130805_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "AppUi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "AppUi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T10:49:42.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ParticipantLayout.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "RelativeDocumentMoniker": "AppUi\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "RelativeToolTip": "AppUi\\Views\\Shared\\_ParticipantLayout.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwDEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T10:42:47.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AppUi\\Controllers\\AdminController.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AppUi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T10:37:40.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "AppUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "AppUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T10:36:19.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Participant\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "AppUi\\Views\\Participant\\Dashboard.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Participant\\Dashboard.cshtml",
+              "RelativeToolTip": "AppUi\\Views\\Participant\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T13:19:26.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppUi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AppUi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T13:18:53.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "AppUi\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "AppUi\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T13:18:18.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EMSDbContext.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\DAL\\DataAccess\\EMSDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess\\EMSDbContext.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\DAL\\DataAccess\\EMSDbContext.cs",
+              "RelativeToolTip": "DAL\\DataAccess\\EMSDbContext.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:17:31.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260411130805_InitialCreate.cs",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\DAL\\Migrations\\20260411130805_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20260411130805_InitialCreate.cs",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\DAL\\Migrations\\20260411130805_InitialCreate.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20260411130805_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T13:08:05.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\appsettings.json",
+              "RelativeDocumentMoniker": "AppUi\\appsettings.json",
+              "ToolTip": "F:\\UpGrad Training\\Mini Project\\EMS\\AppUi\\appsettings.json",
+              "RelativeToolTip": "AppUi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-11T13:07:12.151Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

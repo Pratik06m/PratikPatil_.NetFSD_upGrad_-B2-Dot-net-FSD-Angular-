@@ -1,0 +1,53 @@
+@model AssignSpeakerViewModel
+@{
+    ViewData["Title"] = "Assign Speaker";
+    Layout = "_AdminLayout";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fa fa-microphone me-2"></i>Assign Speaker</h2>
+    <a asp-action="Sessions" class="btn btn-outline-secondary">
+        <i class="fa fa-arrow-left me-1"></i>Back to Sessions
+    </a>
+</div>
+
+<div class="card shadow border-0" style="max-width:500px;">
+    <div class="card-header bg-warning text-dark">
+        <strong>Session:</strong> @Model.SessionTitle
+        <span class="ms-2 text-muted small">(@Model.EventName)</span>
+    </div>
+    <div class="card-body p-4">
+        <form asp-action="AssignSpeaker" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="SessionId" />
+            <input type="hidden" asp-for="SessionTitle" />
+            <input type="hidden" asp-for="EventName" />
+
+            <div class="mb-4">
+                <label asp-for="SpeakerId" class="form-label fw-semibold">Select Speaker</label>
+                <select asp-for="SpeakerId" class="form-select form-select-lg">
+                    <option value="">-- Choose a Speaker --</option>
+                    @foreach (var sp in Model.Speakers)
+                    {
+                        <option value="@sp.SpeakerId"
+                                selected="@(Model.SpeakerId == sp.SpeakerId ? "selected" : null)">
+                            @sp.SpeakerName
+                        </option>
+                    }
+                </select>
+                <span asp-validation-for="SpeakerId" class="text-danger small"></span>
+            </div>
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-warning">
+                    <i class="fa fa-check me-1"></i>Assign Speaker
+                </button>
+                <a asp-action="Sessions" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,43 @@
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Admin Login";
+    Layout = "_ParticipantLayout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <div class="card shadow border-0">
+            <div class="card-header bg-dark text-white text-center py-3">
+                <h4 class="mb-0"><i class="fa fa-user-shield me-2"></i>Admin Login</h4>
+            </div>
+            <div class="card-body p-4">
+                <form asp-action="AdminLogin" method="post">
+                    @Html.AntiForgeryToken()
+                    <div asp-validation-summary="All" class="alert alert-danger" style="display:@(ViewData.ModelState.ErrorCount > 0 ? "block" : "none")"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="EmailId" class="form-label fw-semibold"></label>
+                        <input asp-for="EmailId" class="form-control" placeholder="admin@upgrad.com" />
+                        <span asp-validation-for="EmailId" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label fw-semibold"></label>
+                        <input asp-for="Password" class="form-control" placeholder="••••••" />
+                        <span asp-validation-for="Password" class="text-danger small"></span>
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100">
+                        <i class="fa fa-sign-in-alt me-1"></i>Admin Login
+                    </button>
+                </form>
+                <hr />
+                <p class="text-center text-muted small mb-0">
+                    Default: admin@upgrad.com / Admin@123
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
